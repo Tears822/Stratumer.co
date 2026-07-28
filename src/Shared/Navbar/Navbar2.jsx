@@ -7,7 +7,6 @@ import {
   FaPinterestP,
   FaXTwitter,
 } from "react-icons/fa6";
-import { BiChevronDown } from "react-icons/bi";
 import Logo from "/images/logo-2.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
@@ -202,87 +201,10 @@ const Navbar2 = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-5 w-full block transition-all duration-300 group relative `}
-                  to="#"
+                      : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-5 w-full block transition-all duration-300`}
+                  to="/career"
                 >
-                  <span className="flex items-center">
-                    Pages
-                    <BiChevronDown className="ml-1" />
-                  </span>
-                  <div className="absolute pt-5 lg:pt-8 z-20">
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-SecondaryColor-0 ">
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/why_choose" className="py-2 block">
-                            Why Choose Us
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/mission_inner" className="py-2 block">
-                            Our Mission
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/team_inner" className="py-2 block">
-                            Team Member
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/team_details" className="py-2 block">
-                            Team Details
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/project" className="py-2 block">
-                            Projects
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/project_details" className="py-2 block">
-                            Project Details
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/pricing_inner" className="py-2 block">
-                            Pricing Plan
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/location" className="py-2 block">
-                            Our Location
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/career" className="py-2 block">
-                            Careers
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/faq_inner" className="py-2 block">
-                            Faq
-                          </Link>
-                        </li>
-                      </div>
-                    </ul>
-                  </div>
+                  Careers
                 </NavLink>
                 {/* blog sub menu link */}
                 <NavLink
@@ -291,45 +213,10 @@ const Navbar2 = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-5 w-full block transition-all duration-300 group relative `}
-                  to="#"
+                      : ""} text-white text-left hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-2 xl:px-5 w-full block transition-all duration-300`}
+                  to="/blog_grid"
                 >
-                  <span className="flex items-center">
-                    Blog
-                    <BiChevronDown className="ml-1" />
-                  </span>
-                  <div className="absolute pt-5 lg:pt-8 z-20">
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-SecondaryColor-0">
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/blog_grid" className="py-2 block">
-                            Blog Grid
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/blog_left_sidebar" className="py-2 block">
-                            Blog Left Sidebar
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/blog_right_sidebar" className="py-2 block">
-                            Blog Right Sidebar
-                          </Link>
-                        </li>
-                      </div>
-                      <div className="px-5 group hover:bg-PrimaryColor-0">
-                        <li className="hover:ml-3 duration-300">
-                          <Link to="/blog_details" className="py-2 block">
-                            Blog Details
-                          </Link>
-                        </li>
-                      </div>
-                    </ul>
-                  </div>
+                  Blog
                 </NavLink>
                 <NavLink
                   className={`${({ isActive, isPending }) =>

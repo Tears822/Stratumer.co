@@ -9,79 +9,74 @@ import blogGridImg6 from "/images/blog-6.png";
 import BlogGridCard from "./BlogGridCard";
 import BreadCrumb from "../../../Shared/BreadCrumb/BreadCrumb";
 import { LuArrowUpRight } from "react-icons/lu";
+import { blogPosts } from "../BlogDetails/blogDetailsData";
 
 const blogData = [
   {
     id: 1,
     blogGridImg: blogGridImg,
-    thumbContent: "IT Solution",
+    thumbContent: blogPosts["/blog_details"].category,
     thumbBtn: <LuArrowUpRight />,
     blogGridUrl: "/blog_details",
-    blogGridTitle: "Solution This Business For is Marketing Blog",
+    blogGridTitle: blogPosts["/blog_details"].title,
     postBy: "Admin : Mera",
     comments: "Comments (04)",
-    blogGridDesc:
-      "Monotonectaly granular to front markets task data semper maecenas ferform",
+    blogGridDesc: blogPosts["/blog_details"].intro.slice(0, 90) + "...",
   },
   {
     id: 2,
     blogGridImg: blogGridImg2,
-    thumbContent: "IT Solution",
+    thumbContent: blogPosts["/blog_details2"].category,
     thumbBtn: <LuArrowUpRight />,
-    blogGridUrl: "/blog_details",
-    blogGridTitle: "Easy and Most Powerful Server and Platform.",
+    blogGridUrl: "/blog_details2",
+    blogGridTitle: blogPosts["/blog_details2"].title,
     postBy: "Admin : Mera",
     comments: "Comments (04)",
-    blogGridDesc:
-      "Monotonectaly granular to front markets task data semper maecenas ferform",
+    blogGridDesc: blogPosts["/blog_details2"].intro.slice(0, 90) + "...",
   },
   {
     id: 3,
     blogGridImg: blogGridImg3,
-    thumbContent: "IT Solution",
+    thumbContent: blogPosts["/blog_details3"].category,
     thumbBtn: <LuArrowUpRight />,
-    blogGridUrl: "/blog_details",
-    blogGridTitle: "In eu fringilla, accumsan purusvel sollicitudin.",
+    blogGridUrl: "/blog_details3",
+    blogGridTitle: blogPosts["/blog_details3"].title,
     postBy: "Admin : Mera",
     comments: "Comments (04)",
-    blogGridDesc:
-      "Monotonectaly granular to front markets task data semper maecenas ferform",
+    blogGridDesc: blogPosts["/blog_details3"].intro.slice(0, 90) + "...",
   },
   {
     id: 4,
     blogGridImg: blogGridImg4,
-    thumbContent: "IT Solution",
+    thumbContent: blogPosts["/blog_details4"].category,
     thumbBtn: <LuArrowUpRight />,
-    blogGridUrl: "/blog_details",
-    blogGridTitle: "Vivamus vehicula nl purus at eros interdum.",
+    blogGridUrl: "/blog_details4",
+    blogGridTitle: blogPosts["/blog_details4"].title,
     postBy: "Admin : Mera",
     comments: "Comments (04)",
-    blogGridDesc:
-      "Monotonectaly granular to front markets task data semper maecenas ferform",
+    blogGridDesc: blogPosts["/blog_details4"].intro.slice(0, 90) + "...",
   },
   {
     id: 5,
     blogGridImg: blogGridImg5,
-    thumbContent: "IT Solution",
+    thumbContent: blogPosts["/blog_details5"].category,
     thumbBtn: <LuArrowUpRight />,
-    blogGridUrl: "/blog_details",
-    blogGridTitle: "Optimizing IT Infrastructure for Cost Efficiency.",
+    blogGridUrl: "/blog_details5",
+    blogGridTitle: blogPosts["/blog_details5"].title,
     postBy: "Admin : Mera",
     comments: "Comments (04)",
-    blogGridDesc:
-      "Monotonectaly granular to front markets task data semper maecenas ferform",
+    blogGridDesc: blogPosts["/blog_details5"].intro.slice(0, 90) + "...",
   },
   {
     id: 6,
     blogGridImg: blogGridImg6,
-    thumbContent: "IT Solution",
+    thumbContent: blogPosts["/blog_details6"].category,
     thumbBtn: <LuArrowUpRight />,
-    blogGridUrl: "/blog_details",
-    blogGridTitle: "Business Rules of Running to Web Solution.",
+    blogGridUrl: "/blog_details6",
+    blogGridTitle: blogPosts["/blog_details6"].title,
     postBy: "Admin : Mera",
     comments: "Comments (04)",
-    blogGridDesc:
-      "Monotonectaly granular to front markets task data semper maecenas ferform",
+    blogGridDesc: blogPosts["/blog_details6"].intro.slice(0, 90) + "...",
   },
 ];
 
@@ -89,9 +84,9 @@ const BlogGrid = () => {
   return (
     <>
       <BreadCrumb
-        breadCrumbTitle={"Blog Grid"}
+        breadCrumbTitle={"Blog"}
         breadCrumbIcon={<FaArrowRightLong />}
-        breadCrumbLink={"Blog Grid"}
+        breadCrumbLink={"Blog"}
       />
       <section className="pt-28">
         <div className="Container">
@@ -102,6 +97,7 @@ const BlogGrid = () => {
                 blogGridImg,
                 thumbContent,
                 thumbBtn,
+                blogGridUrl,
                 blogGridTitle,
                 postBy,
                 comments,
@@ -113,6 +109,7 @@ const BlogGrid = () => {
                       blogGridImg={blogGridImg}
                       thumbContent={thumbContent}
                       thumbBtn={thumbBtn}
+                      blogGridUrl={blogGridUrl}
                       blogGridTitle={blogGridTitle}
                       postBy={postBy}
                       comments={comments}

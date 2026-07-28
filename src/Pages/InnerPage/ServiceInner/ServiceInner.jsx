@@ -17,8 +17,8 @@ const serviceData = [
     serviceIcon: serviceIcon,
     serviceTitle: "Cloud Services",
     serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details3",
+      "Secure cloud migration and optimization that keeps systems fast, flexible, and cost ready.",
+    serviceUrl: "/service_details",
     serviceButton2: "Learn More",
     serviceButton: <HiOutlineArrowNarrowRight />,
   },
@@ -27,8 +27,8 @@ const serviceData = [
     serviceIcon: serviceIcon2,
     serviceTitle: "IT Management",
     serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details3",
+      "Managed IT support and monitoring that keeps daily operations stable and secure.",
+    serviceUrl: "/service_details2",
     serviceButton2: "Learn More",
     serviceButton: <HiOutlineArrowNarrowRight />,
   },
@@ -37,8 +37,8 @@ const serviceData = [
     serviceIcon: serviceIcon4,
     serviceTitle: "Software Renew",
     serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details4",
+      "Upgrade outdated tools with renewal plans that improve speed, usability, and security.",
+    serviceUrl: "/service_details3",
     serviceButton2: "Learn More",
     serviceButton: <HiOutlineArrowNarrowRight />,
   },
@@ -47,8 +47,8 @@ const serviceData = [
     serviceIcon: serviceIcon3,
     serviceTitle: "Machine Learning",
     serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details6",
+      "Practical machine learning models that forecast trends and automate smarter decisions.",
+    serviceUrl: "/service_details4",
     serviceButton2: "Learn More",
     serviceButton: <HiOutlineArrowNarrowRight />,
   },
@@ -57,8 +57,8 @@ const serviceData = [
     serviceIcon: serviceIcon5,
     serviceTitle: "Digital Marketing",
     serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details2",
+      "SEO, content, and paid campaigns that attract qualified leads and grow brand reach.",
+    serviceUrl: "/service_details5",
     serviceButton2: "Learn More",
     serviceButton: <HiOutlineArrowNarrowRight />,
   },
@@ -67,28 +67,8 @@ const serviceData = [
     serviceIcon: serviceIcon6,
     serviceTitle: "Web Development",
     serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details",
-    serviceButton2: "Learn More",
-    serviceButton: <HiOutlineArrowNarrowRight />,
-  },
-  {
-    id: 7,
-    serviceIcon: serviceIcon6,
-    serviceTitle: "Cyber Security",
-    serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details5",
-    serviceButton2: "Learn More",
-    serviceButton: <HiOutlineArrowNarrowRight />,
-  },
-  {
-    id: 8,
-    serviceIcon: serviceIcon6,
-    serviceTitle: "Data Analytic",
-    serviceDesc:
-    "Monotonectal grants to business visualize provid solution services business provid done",
-    serviceUrl: "/service_details4",
+      "Custom websites and web apps built for speed, security, and conversion focused journeys.",
+    serviceUrl: "/service_details6",
     serviceButton2: "Learn More",
     serviceButton: <HiOutlineArrowNarrowRight />,
   },
@@ -114,7 +94,7 @@ const ServiceInner = () => {
             </h1>
           </div>
           <div className="mt-[88px]">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-7 gap-y-[68px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-[68px]">
               {serviceData.map(
                 ({
                   id,
@@ -128,7 +108,6 @@ const ServiceInner = () => {
                   serviceShape,
                 }) => {
                   return (
-                    <>
                       <div key={id}>
                         <ServiceCard
                           serviceImg={serviceImg}
@@ -141,7 +120,6 @@ const ServiceInner = () => {
                           serviceShape={serviceShape}
                         />
                       </div>
-                    </>
                   );
                 }
               )}
