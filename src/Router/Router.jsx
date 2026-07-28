@@ -31,6 +31,7 @@ import MissionInner from "../Pages/InnerPage/MissionInner/MissionInner";
 import PricingInner from "../Pages/InnerPage/PricingInner/PricingInner";
 import ProjectInner from "../Pages/InnerPage/ProjectInner/ProjectInner";
 import CareerInner from "../Pages/InnerPage/CareerInner/CareerInner";
+import CareerApply from "../Pages/InnerPage/CareerInner/CareerApply";
 import FaqInner from "../Pages/InnerPage/Faq/Accordion/FaqInner";
 
 const router = createBrowserRouter([
@@ -116,6 +117,10 @@ const router = createBrowserRouter([
       {
         path: "/career",
         element: <CareerInner />,
+      },
+      {
+        path: "/career_apply",
+        element: <CareerApply />,
       },
       {
         path: "/project_details",

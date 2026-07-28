@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="Container">
         <div className="grid gap-y-7 grid-cols-12">
           <div className="col-span-12 md:col-span-6 lg:col-span-4">
-            <Link to={"/"}>
-              <img src={footerLogo} draggable={false} />
+            <Link to={"/"} className="inline-block -ml-5">
+              <img src={footerLogo} draggable={false} className="block" />
             </Link>
             <p className="font-Nunito text-white opacity-80 mt-6 mb-8 w-10/12">
               Stratumer provides trusted IT services{" "}
@@ -67,7 +67,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/career"}>
                   <button className="flex items-center gap-2 font-Nunito text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1">
                     <LuArrowRightCircle className="text-base text-PrimaryColor-0" />
                     Careers
