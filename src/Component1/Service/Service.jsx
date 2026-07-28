@@ -16,7 +16,7 @@ const ServiceData = [
     serviceTitle: "Graphic Design",
     serviceDesc:
       "Monotonectally synergize grants to business visualize strategic infomediaries",
-    serviceUrl: "/service_details",
+    serviceUrl: "/service_details5",
     serviceButton: "Read More",
     serviceBtnIcon: <HiMiniArrowLongRight />,
   },
@@ -27,7 +27,7 @@ const ServiceData = [
     serviceTitle: "Cloud Solutions",
     serviceDesc:
       "Monotonectally synergize grants to business visualize strategic infomediaries",
-    serviceUrl: "/service_details",
+    serviceUrl: "/service_details3",
     serviceButton: "Read More",
     serviceBtnIcon: <HiMiniArrowLongRight />,
   },
@@ -49,7 +49,7 @@ const ServiceData = [
     serviceTitle: "Digital Marketing",
     serviceDesc:
       "Monotonectally synergize grants to business visualize strategic infomediaries",
-    serviceUrl: "/service_details",
+    serviceUrl: "/service_details2",
     serviceButton: "Read More",
     serviceBtnIcon: <HiMiniArrowLongRight />,
   },
@@ -60,7 +60,7 @@ const ServiceData = [
     serviceTitle: "3D Vector Illustration",
     serviceDesc:
       "Monotonectally synergize grants to business visualize strategic infomediaries",
-    serviceUrl: "/service_details",
+    serviceUrl: "/service_details6",
     serviceButton: "Read More",
     serviceBtnIcon: <HiMiniArrowLongRight />,
   },
@@ -71,7 +71,7 @@ const ServiceData = [
     serviceTitle: "Hosting Services",
     serviceDesc:
       "Monotonectally synergize grants to business visualize strategic infomediaries",
-    serviceUrl: "/service_details",
+    serviceUrl: "/service_details4",
     serviceButton: "Read More",
     serviceBtnIcon: <HiMiniArrowLongRight />,
   },
