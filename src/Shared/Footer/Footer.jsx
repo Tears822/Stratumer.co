@@ -10,27 +10,28 @@ const Footer = () => {
       <div className="Container">
         <div className="grid gap-y-7 grid-cols-12">
           <div className="col-span-12 md:col-span-6 lg:col-span-4">
-            <Link to={"/"} className="inline-block -ml-10">
-              <img
-                src={footerLogo}
-                draggable={false}
-                className="block w-44 sm:w-48"
-              />
-            </Link>
-            <p className="font-Nunito text-white opacity-80 mt-6 mb-8 w-10/12">
-              Stratumer provides trusted IT services{" "}
-              <br className="hidden xl:block" /> that keep your systems secure
-              and teams <br className="hidden xl:block" /> productive with clear
-              guidance and reliable <br className="hidden xl:block" />{" "}
-              support when you need it
-            </p>
-            <div>
-              <Link to={"/about"}>
-                <button className="primary-btn">
-                  {`Discover More`}
-                  <GoArrowRight size={"22"} />
-                </button>
+            <div className="w-10/12">
+              <Link to={"/"} className="block -ml-4">
+                <img
+                  src={footerLogo}
+                  draggable={false}
+                  className="block w-full h-auto max-w-full"
+                  alt="Stratumer"
+                />
               </Link>
+              <p className="font-Nunito text-white opacity-80 mt-6 mb-8">
+                Stratumer provides trusted IT services that keep your systems
+                secure and teams productive with clear guidance and reliable
+                support when you need it
+              </p>
+              <div>
+                <Link to={"/about"}>
+                  <button className="primary-btn">
+                    {`Discover More`}
+                    <GoArrowRight size={"22"} />
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 lg:col-span-2">
