@@ -11,7 +11,11 @@ const Footer = () => {
         <div className="grid gap-y-7 grid-cols-12">
           <div className="col-span-12 md:col-span-6 lg:col-span-4">
             <Link to={"/"} className="inline-block -ml-10">
-              <img src={footerLogo} draggable={false} className="block" />
+              <img
+                src={footerLogo}
+                draggable={false}
+                className="block w-36 sm:w-40"
+              />
             </Link>
             <p className="font-Nunito text-white opacity-80 mt-6 mb-8 w-10/12">
               Stratumer provides trusted IT services{" "}
