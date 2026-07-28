@@ -13,32 +13,32 @@ const FaqInner = () => {
   const faqs = [
     {
       faqIcon2: faqIcon2,
-      title: "Project Horizon Redevelopment?",
-      text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
+      title: "How does Stratumer start a new IT project?",
+      text: "We begin with a discovery workshop to map your goals, systems, and risks. From there we deliver a scoped plan with timelines, responsibilities, and clear success metrics before any build work begins.",
       active: true,
     },
     {
       faqIcon2: faqIcon2,
-      title: "What is your professional passion?",
-      text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
+      title: "What industries does Stratumer support?",
+      text: "We partner with growing businesses across professional services, healthcare, retail, manufacturing, and finance. Our playbooks adapt to each sector while keeping security and uptime as nonnegotiable standards.",
       active: false,
     },
     {
       faqIcon2: faqIcon2,
-      title: "Service Horizon Business low?",
-      text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
+      title: "How quickly can you respond to urgent issues?",
+      text: "Priority incidents are triaged as soon as they are reported. Critical outages receive immediate attention from on call engineers, while lower severity requests follow agreed service windows published in your support plan.",
       active: false,
     },
     {
       faqIcon2: faqIcon2,
-      title: "Business Solution Redevelopment?",
-      text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
+      title: "Can you modernize our existing business systems?",
+      text: "Yes. We assess legacy applications, data flows, and integrations, then recommend phased upgrades that reduce risk. Migrations are staged carefully so your teams keep working while platforms improve underneath.",
       active: false,
     },
     {
       faqIcon2: faqIcon2,
-      title: "Do you have any custom services?",
-      text: "Distinctively plagiarize ubiquitous mindshare goal-oriented collaboration idea-sharing. Efficiently transition dynamic initiatives to business testing procedures enthusiastically negotiate high",
+      title: "Do you offer custom IT services?",
+      text: "Absolutely. Beyond managed support, we design custom networks, cloud architectures, automation workflows, and security programs tailored to how your organization operates and scales.",
       active: false,
     },
   ];

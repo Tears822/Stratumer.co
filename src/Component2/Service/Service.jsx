@@ -14,42 +14,42 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceTitle: "3D Animation Design",
     serviceDesc:
-      "Monotonectally synergize grants to business visualize strategic infomediaries main issue state infrastructure done",
+      "Create polished 3D visuals that explain products clearly and leave a lasting impression with your audience",
   },
   {
     id: 2,
     serviceIcon: serviceIcon2,
     serviceTitle: "Web Development",
     serviceDesc:
-      "Monotonectally synergize grants to business visualize strategic infomediaries main issue state infrastructure done",
+      "Build fast, secure websites and web apps that reflect your brand and convert visitors into customers",
   },
   {
     id: 3,
     serviceIcon: serviceIcon3,
     serviceTitle: "Digital Marketing",
     serviceDesc:
-      "Monotonectally synergize grants to business visualize strategic infomediaries main issue state infrastructure done",
+      "Reach the right audience with campaigns that grow awareness, leads, and measurable business results",
   },
   {
     id: 4,
     serviceIcon: serviceIcon4,
     serviceTitle: "VFX And Video Editing",
     serviceDesc:
-      "Monotonectally synergize grants to business visualize strategic infomediaries main issue state infrastructure done",
+      "Produce cinematic effects and refined edits that elevate brand stories across every screen",
   },
   {
     id: 5,
     serviceIcon: serviceIcon5,
     serviceTitle: "Video Editing",
     serviceDesc:
-      "Monotonectally synergize grants to business visualize strategic infomediaries main issue state infrastructure done",
+      "Turn raw footage into clean, engaging videos ready for social, training, and marketing use",
   },
   {
     id: 6,
     serviceIcon: serviceIcon6,
     serviceTitle: "Google Top Ranking",
     serviceDesc:
-      "Monotonectally synergize grants to business visualize strategic infomediaries main issue state infrastructure done",
+      "Improve search visibility with SEO practices that help customers find Stratumer powered sites",
   },
 ];
 

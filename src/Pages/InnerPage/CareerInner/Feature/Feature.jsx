@@ -14,7 +14,7 @@ const processData = [
     featureshape2: featureshape2,
     featureTitle: "22+ Year Experience",
     featureDesc:
-      "Monotonically synergize grants to business visualize strategic infomediaries",
+      "Decades of hands on IT delivery help Stratumer guide clients through complex technology decisions with confidence.",
     featureUrl: "/",
     featureBtn: "Read More",
   },
@@ -25,7 +25,7 @@ const processData = [
     featureshape2: featureshape2,
     featureTitle: "Dedicated Members",
     featureDesc:
-      "Monotonically synergize grants to business visualize strategic infomediaries",
+      "Our specialists stay close to every project, bringing clear communication and ownership from kickoff through launch.",
     featureUrl: "/",
     featureBtn: "Read More",
   },
@@ -36,7 +36,7 @@ const processData = [
     featureshape2: featureshape2,
     featureTitle: "Valuable Supports",
     featureDesc:
-      "Monotonically synergize grants to business visualize strategic infomediaries",
+      "Career growth at Stratumer includes mentoring, tools, and a support culture that helps every teammate succeed.",
     featureUrl: "/",
     featureBtn: "Read More",
   },

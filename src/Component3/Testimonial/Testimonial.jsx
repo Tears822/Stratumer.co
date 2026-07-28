@@ -10,43 +10,38 @@ import TestimonialNavigation from "./TestimonialNavigation";
 const testiData = [
   {
     id: 1,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `Stratumer helped us migrate critical apps with almost no disruption. The project plan was realistic, the engineers were sharp, and post launch support has been outstanding.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Elena Brooks",
+    testiDesignation: "Product Manager",
   },
   {
     id: 2,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `Our help desk used to drown in routine issues. After Stratumer took over managed services, users get faster answers and our internal team can focus on strategic work again.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "James Whitaker",
+    testiDesignation: "Systems Administrator",
   },
   {
     id: 3,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `They redesigned our network for growth instead of patching old problems. Performance is consistent across offices, and expanding to new locations no longer feels risky.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Aisha Rahman",
+    testiDesignation: "Network Engineer",
   },
   {
     id: 4,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `Stratumer turned a messy stack of tools into a clean, supportable platform. Reporting is clearer, vendors are easier to manage, and we finally have a single point of accountability.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Noah Patel",
+    testiDesignation: "Business Owner",
   },
   {
     id: 5,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `Compliance reviews used to scramble our calendar. Stratumer built policies, logging, and access controls that made our last audit straightforward and far less stressful.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Claire Nguyen",
+    testiDesignation: "Compliance Lead",
   },
 ];
 

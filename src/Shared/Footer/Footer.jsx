@@ -1,11 +1,5 @@
 import { Link } from "react-router-dom";
 import footerLogo from "/images/logo-2.png";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
 import { GoArrowRight } from "react-icons/go";
 import { LuArrowRightCircle } from "react-icons/lu";
 import { HiOutlineMail } from "react-icons/hi";
@@ -20,11 +14,11 @@ const Footer = () => {
               <img src={footerLogo} draggable={false} />
             </Link>
             <p className="font-Nunito text-white opacity-80 mt-6 mb-8 w-10/12">
-              Monotonectally synergize granular top{" "}
-              <br className="hidden xl:block" /> visualize strategic
-              infomediaries afters <br className="hidden xl:block" /> task state
-              of the art infrastructures <br className="hidden xl:block" />{" "}
-              digital agency in north
+              Stratumer provides trusted IT services{" "}
+              <br className="hidden xl:block" /> that keep your systems secure
+              and teams <br className="hidden xl:block" /> productive with clear
+              guidance and reliable <br className="hidden xl:block" />{" "}
+              support when you need it
             </p>
             <div>
               <Link to={"/about"}>
@@ -160,32 +154,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-y-7 md: md:col-span-6 justify-between md:items-center py-6 mt-[108px] border-t border-BorderColor-0">
           <div>
             <p className="font-Nunito text-white">
-              © 2024 Toptech. Designed By Dream IT Solution
+              © 2024 Stratumer. All Rights Reserved.
             </p>
-          </div>
-          <div>
-            <ul className="flex gap-3">
-              <li>
-                <button className="size-9 rounded-full text-sm bg-[#ffffff2f] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaFacebookF />
-                </button>
-              </li>
-              <li>
-                <button className="size-9 rounded-full text-sm bg-[#ffffff2f] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaXTwitter />
-                </button>
-              </li>
-              <li>
-                <button className="size-9 rounded-full text-sm bg-[#ffffff2f] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaLinkedinIn />
-                </button>
-              </li>
-              <li>
-                <button className="size-9 rounded-full text-sm bg-[#ffffff2f] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaPinterestP />
-                </button>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

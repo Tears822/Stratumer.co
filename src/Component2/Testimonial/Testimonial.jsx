@@ -16,7 +16,7 @@ const testiData = [
     testiRatingIcon: <MdOutlineStarPurple500 />,
     testiName: "Hemilton Masakajja",
     testiDesignation: "Web Developer",
-    testiDesc: `Monotonectally synergize granular that visualize strategic infomediaries business task state of the art into infrastructures markets digital products`,
+    testiDesc: `Stratumer rebuilt our internal tools and cut downtime almost overnight. Their team explained every step clearly and stayed available when we needed them most.`,
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const testiData = [
     testiRatingIcon: <MdOutlineStarPurple500 />,
     testiName: "Jhon D. Alexon",
     testiDesignation: "UI/UX Designer",
-    testiDesc: `Monotonectally synergize granular that visualize strategic infomediaries business task state of the art into infrastructures markets digital products`,
+    testiDesc: `Working with Stratumer made our product interface cleaner and faster. They listened closely, shipped on time, and helped us present a more polished experience.`,
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const testiData = [
     testiRatingIcon: <MdOutlineStarPurple500 />,
     testiName: "Anjelina Watson",
     testiDesignation: "Web Developer",
-    testiDesc: `Monotonectally synergize granular that visualize strategic infomediaries business task state of the art into infrastructures markets digital products`,
+    testiDesc: `Our site launch felt smooth thanks to Stratumer. From hosting setup to frontend fixes, they handled the details so we could focus on our customers.`,
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const testiData = [
     testiRatingIcon: <MdOutlineStarPurple500 />,
     testiName: "Anjelina Watson",
     testiDesignation: "Web Developer",
-    testiDesc: `Monotonectally synergize granular that visualize strategic infomediaries business task state of the art into infrastructures markets digital products`,
+    testiDesc: `Stratumer support has been steady and practical. Whenever an issue pops up, they respond quickly with solutions that keep our business running.`,
   },
 ];
 

@@ -24,29 +24,25 @@ const ProjectDetails = () => {
                 Intro of the project
               </h2>
               <p className="font-Nunito text-TextColor2-0 mt-6">
-                Alternative innovation to ethical network environmental
-                whiteboard pursue compelling results premier methods
-                empowerment. Dramatically architect go forward opportunities
-                before user-centric partner Credibly implement exceptional
+                Stratumer rebuilt this client platform to unify scattered tools
+                into one secure workspace. The goal was faster collaboration,
+                cleaner data flow, and a system that supports daily operations
+                without constant manual fixes or downtime.
               </p>
               <p className="font-Nunito text-TextColor2-0 mt-7 mb-9">
-                Continually fashion orthogonal leadership skills whereas
-                wireless metrics. Uniquely syndicate exceptio opportunities with
-                interdependent users. Globally enhance fully tested
-                meta-services rather than pan solutions. Proactively integrate
-                client-integrate go forward architectures and turnkey
-                meta-services. Interactively harness integrated ROI whereas
-                frictionless products.
+                We mapped existing workflows, then designed a scalable cloud
+                environment with clear roles, automated backups, and modern
+                integrations. The result is a reliable foundation that teams
+                can trust as the business grows and new services come online.
               </p>
               <h2 className="font-Rajdhani font-bold text-3xl sm:text-4xl text-HeadingColor-0 mt-[52px]">
                 Challenge and solution
               </h2>
               <p className="font-Nunito text-TextColor2-0 mt-6">
-                Methods empowerment. Dramatically architect go forward
-                opportunities credibly revolutionize front-end initiatives for
-                interoperable outsourcing. Conveniently repurpose market-driven
-                deliverables without holistic potentialitiess distinctively
-                integrate
+                Legacy systems slowed reporting and left security gaps across
+                departments. Stratumer replaced fragile processes with a
+                modular solution, stronger access controls, and training that
+                helps staff adopt the new tools with confidence.
               </p>
               <div className="grid gap-7 grid-cols-1 lg:grid-cols-1 md:grid-cols-2 items-center xl:grid-cols-2 mt-12">
                 <div>
@@ -62,48 +58,48 @@ const ProjectDetails = () => {
                         size={"20"}
                         className="text-PrimaryColor-0"
                       />
-                      Innovate wireless market
+                      Secure cloud migration
                     </li>
                     <li className="flex gap-3 items-center font-Nunito text-TextColor2-0">
                       <FaCircleCheck
                         size={"20"}
                         className="text-PrimaryColor-0"
                       />
-                      Productivate resource sucking
+                      Automated daily backups
                     </li>
                     <li className="flex gap-3 items-center font-Nunito text-TextColor2-0">
                       <FaCircleCheck
                         size={"20"}
                         className="text-PrimaryColor-0"
                       />
-                      Proactively unleash oriented communities
+                      Role based access controls
                     </li>
                     <li className="flex gap-3 items-center font-Nunito text-TextColor2-0">
                       <FaCircleCheck
                         size={"20"}
                         className="text-PrimaryColor-0"
                       />
-                      Credibly develop progressive archi
+                      Faster internal reporting
                     </li>
                     <li className="flex gap-3 items-center font-Nunito text-TextColor2-0">
                       <FaCircleCheck
                         size={"20"}
                         className="text-PrimaryColor-0"
                       />
-                      Phosfluorescently to customer
+                      Ongoing support coverage
                     </li>
                   </ul>
                 </div>
               </div>
               <h2 className="font-Rajdhani font-bold text-2xl md:text-[28px] text-PrimaryColor-0 mt-[44px]">
-                Competently architect intermandated deliverables client niches
-                continually underwhelm
+                A clear delivery path that turned complex IT needs into lasting
+                business results
               </h2>
               <p className="font-Nunito text-TextColor2-0 mt-5">
-                Appropriately communicate economically sound e-commerce after
-                enterprise services. Dramatically target cross-media solutions
-                and error-free platforms. Monotonectally pontificate 24/365
-                human capital and dynamic potentialities compellingly pursue
+                After launch, the client saw fewer outages, quicker reporting,
+                and stronger visibility into every system. Stratumer remains
+                involved with monitoring and improvements so the platform stays
+                aligned with changing business priorities.
               </p>
             </div>
             <div className="col-span-3 lg:col-span-1">

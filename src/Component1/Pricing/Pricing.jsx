@@ -9,22 +9,22 @@ const Pricing = () => {
   const Faqs = [
     {
       title: "How to increase products sales 2024?",
-      text: "Credibly conceptualize multifunctional human capital after that awesome revenue superior scenarios. Collaboratively myocardinate flexible social marketing working technologies and robust services available",
+      text: "Stratumer helps you convert more visitors with faster sites, clearer analytics, and IT tools that support your sales team from lead to close every day.",
       active: true,
     },
     {
       title: "What kinds of web traffics?",
-      text: "Credibly conceptualize multifunctional human capital after that awesome revenue superior scenarios. Collaboratively myocardinate flexible social marketing working technologies and robust services available",
+      text: "We track paid search, organic search, referral, and direct visits so you can see which channels bring quality traffic and where to invest next.",
       active: false,
     },
     {
       title: "How to generate organic audience?",
-      text: "Credibly conceptualize multifunctional human capital after that awesome revenue superior scenarios. Collaboratively myocardinate flexible social marketing working technologies and robust services available",
+      text: "Grow lasting visibility with technical SEO, content that ranks, and site performance work that helps search engines and people find you more easily.",
       active: false,
     },
     {
       title: "Do you have any custom services?",
-      text: "Credibly conceptualize multifunctional human capital after that awesome revenue superior scenarios. Collaboratively myocardinate flexible social marketing working technologies and robust services available",
+      text: "Yes. Stratumer builds tailored IT packages for your stack, security needs, and growth plans so you get support that fits your business exactly.",
       active: false,
     },
   ];
@@ -116,9 +116,9 @@ const Pricing = () => {
                     19 Days For Free
                   </h5>
                   <p className="pricing-desc font-Nunito text-TextColor2-0 transition-all duration-500 mb-[26px]">
-                    Multifunctional human capital after awesome{" "}
+                    Full year of managed IT support with{" "}
                     <br className="hidden sm:block lg:hidden 2xl:block" />{" "}
-                    superior scenarios my coordinate
+                    priority help and proactive monitoring
                   </p>
                   <Link to={"/"}>
                     <button className="pricing-btn font-Rajdhani font-medium text-lg text-HeadingColor-0 border border-PrimaryColor-0 rounded px-7 py-2 transition-all duration-500">
@@ -156,9 +156,9 @@ const Pricing = () => {
                     09 Days For Free
                   </h5>
                   <p className="pricing-desc font-Nunito text-TextColor2-0 transition-all duration-500 mb-[26px]">
-                    Multifunctional human capital after awesome{" "}
+                    Flexible monthly coverage for teams that{" "}
                     <br className="hidden sm:block lg:hidden 2xl:block" />{" "}
-                    superior scenarios my coordinate
+                    need reliable support without long locks
                   </p>
                   <Link to={"/"}>
                     <button className="pricing-btn font-Rajdhani font-medium text-lg text-HeadingColor-0 border border-PrimaryColor-0 rounded px-7 py-2 transition-all duration-500">

@@ -1,10 +1,3 @@
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
-import { Link } from "react-router-dom";
 import contactFormImg from "/images/contact-form-img.png";
 
 const ContactForm = () => {
@@ -14,42 +7,9 @@ const ContactForm = () => {
         <div className="col-span-2 lg:col-span-1 rounded-md overflow-hidden inline-block">
           <img src={contactFormImg} className="w-full" draggable="false" />
           <div className="bg-PrimaryColor-0 pl-9 pt-7 pb-9">
-            <h4 className="font-Rajdhani font-semibold text-xl sm:text-[28px] leading-[34px] text-white">
+            <h4 className="font-Rajdhani text-xl sm:text-[28px] leading-7 sm:leading-[34px] text-white font-semibold mt-6 mb-5">
               Feel Free to Contact & Hire Us for Your Solution
             </h4>
-            <h6 className="font-Rajdhani font-semibold text-xl text-white mt-6 mb-5">
-              Follow US :
-            </h6>
-            <ul className="flex items-center gap-3">
-              <li>
-                <Link to={"/"}>
-                  <button className="size-10 flex justify-center items-center border border-dashed transition-all duration-500 hover:border-solid hover:border-SecondaryColor-0 rounded-full overflow-hidden relative bg-transparent text-white text-sm z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaFacebookF />
-                  </button>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/"}>
-                  <button className="size-10 flex justify-center items-center border border-dashed transition-all duration-500 hover:border-solid hover:border-SecondaryColor-0 rounded-full overflow-hidden relative bg-transparent text-white text-sm z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaXTwitter />
-                  </button>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/"}>
-                  <button className="size-10 flex justify-center items-center border border-dashed transition-all duration-500 hover:border-solid hover:border-SecondaryColor-0 rounded-full overflow-hidden relative bg-transparent text-white text-sm z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaLinkedinIn />
-                  </button>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/"}>
-                  <button className="size-10 flex justify-center items-center border border-dashed transition-all duration-500 hover:border-solid hover:border-SecondaryColor-0 rounded-full overflow-hidden relative bg-transparent text-white text-sm z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaPinterestP />
-                  </button>
-                </Link>
-              </li>
-            </ul>
           </div>
         </div>
         <div className="col-span-2 lg:pl-[120px]">

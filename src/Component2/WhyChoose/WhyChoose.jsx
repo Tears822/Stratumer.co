@@ -49,9 +49,9 @@ const WhyChoose = () => {
               with a Reliable IT Service
             </h1>
             <p className="font-Nunito text-TextColor2-0 mt-4 mb-5">
-              Monotonectally synergize granular markets front markets.
-              Collaboratively visualize strategic infomediaries after multimedia
-              based.Synergistically to task state of the art infrastructures
+              Stratumer delivers dependable IT service that keeps your operations
+              running smoothly. From day to day support to long term planning,
+              we help you build a stronger technology foundation.
             </p>
             <div className="mb-5">
               <h6 className="font-Rajdhani font-semibold text-lg text-HeadingColor-0 pb-3">
@@ -126,7 +126,7 @@ const WhyChoose = () => {
                 Business Plan
               </h6>
               <p className="choose-desc font-Nunito text-TextColor2-0 transition-all duration-500 mb-4">
-                The markets and front market
+                Essential IT support for teams
               </p>
               <div className="flex items-end justify-center gap-1 border-b border-BorderColor2-0 pb-5">
                 <div className="flex gap-1">
@@ -173,7 +173,7 @@ const WhyChoose = () => {
                 Premium Plan
               </h6>
               <p className="choose-desc font-Nunito text-TextColor2-0 transition-all duration-500 mb-4">
-                The markets and front market
+                Full coverage for growing firms
               </p>
               <div className="flex items-end justify-center gap-1 border-b border-BorderColor2-0 pb-5">
                 <div className="flex gap-1">

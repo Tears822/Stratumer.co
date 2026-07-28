@@ -60,9 +60,9 @@ const Blog = () => {
           </div>
           <div>
             <p className="font-Nunito text-TextColor2-0 text-lg">
-              Professionaly optimize interdependent intelectual services visuali
-              design infoediaries main issue state icreative planing main best
-              practices.
+              Explore recent Stratumer work across infrastructure, security, and
+              digital transformation. Each project shows how practical IT design
+              helps teams operate with more speed and confidence.
             </p>
           </div>
         </div>

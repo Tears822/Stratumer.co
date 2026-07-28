@@ -25,13 +25,13 @@ const About = () => {
             </h5>
             <h1 className="font-Rajdhani font-bold text-2xl leading-7 sm:text-[34px] sm:leading-[44px] md:text-[44px] md:leading-[54px] lg:text-[30px] lg:leading-[40px] xl:text-[44px] xl:leading-[46px] 2xl:text-[48px] 2xl:leading-[50px] text-HeadingColor-0 mt-3 mb-4">
               Get Exclusive It Solutions & <br />
-              Services With <span className="text-PrimaryColor-0">TopTech</span>
+              Services With <span className="text-PrimaryColor-0">Stratumer</span>
             </h1>
             <p className="font-Nunito text-TextColor2-0 pb-8">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which is best for IT solution
-              service and consulting for your business.
+              Stratumer provides practical IT solutions and consulting that help
+              businesses stay secure, connected, and ready to grow. From
+              infrastructure to everyday support, we deliver service you can
+              trust.
             </p>
             <div className="flex items-center gap-5">
               <div className="w-[74px] h-[74px] rounded bg-[#d4e1f7] flex items-center justify-center">
@@ -42,9 +42,8 @@ const About = () => {
                   Certified Company
                 </h6>
                 <p className="font-Nunito text-TextColor2-0">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin lorem
-                  awesome.
+                  Our certified specialists follow proven standards so your
+                  technology stays compliant, reliable, and ready for change.
                 </p>
               </div>
             </div>
@@ -57,9 +56,8 @@ const About = () => {
                   Internet Networking
                 </h6>
                 <p className="font-Nunito text-TextColor2-0">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin lorem
-                  awesome.
+                  We design and manage networks that keep teams connected with
+                  strong uptime, clear performance, and smarter access control.
                 </p>
               </div>
             </div>

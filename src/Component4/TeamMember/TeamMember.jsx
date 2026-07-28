@@ -3,11 +3,6 @@ import teamThumb2 from "/images/team2.png";
 import teamThumb3 from "/images/team3.png";
 import teamThumb4 from "/images/team4.png";
 import TeamCard from "./TeamCard";
-import {
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
 import { PiStarFourFill } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
@@ -17,36 +12,24 @@ const teamData = [
     teamThumb: teamThumb,
     teamTitle: "Anjelina Watson",
     teamDesc: "Solar Engineer",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
   {
     id: 2,
     teamThumb: teamThumb2,
     teamTitle: "Jhon D. Alexon",
     teamDesc: "Solar Engineer",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
   {
     id: 3,
     teamThumb: teamThumb3,
     teamTitle: "Al-Amin Islam",
     teamDesc: "Solar Engineer",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
   {
     id: 4,
     teamThumb: teamThumb4,
     teamTitle: "Ricerd Powel",
     teamDesc: "Solar Engineer",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
 ];
 
@@ -71,9 +54,6 @@ const TeamMember = () => {
               teamThumb,
               teamTitle,
               teamDesc,
-              socialIcon,
-              socialIcon2,
-              socialIcon3,
             }) => {
               return (
                 <div key={id} className="team-member-box">
@@ -81,9 +61,6 @@ const TeamMember = () => {
                     teamThumb={teamThumb}
                     teamTitle={teamTitle}
                     teamDesc={teamDesc}
-                    socialIcon={socialIcon}
-                    socialIcon2={socialIcon2}
-                    socialIcon3={socialIcon3}
                   />
                 </div>
               );

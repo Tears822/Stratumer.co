@@ -3,11 +3,6 @@ import teamThumb2 from "/images/team2.jpg";
 import teamThumb3 from "/images/team3.jpg";
 import teamThumb4 from "/images/team4.jpg";
 import TeamCard from "./TeamCard";
-import {
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
 
 const TeamData = [
   {
@@ -15,36 +10,24 @@ const TeamData = [
     teamThumb: teamThumb,
     teamTitle: "Anjelina Watson",
     teamDesc: "Web Developer",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
   {
     id: 2,
     teamThumb: teamThumb2,
     teamTitle: "Jhon D. Alexon",
     teamDesc: "IT Specialist",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
   {
     id: 3,
     teamThumb: teamThumb3,
     teamTitle: "Al-Amin Islam",
     teamDesc: "Graphic Designer",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
   {
     id: 4,
     teamThumb: teamThumb4,
     teamTitle: "Ricerd Powel",
     teamDesc: "Marketing",
-    socialIcon: <FaXTwitter />,
-    socialIcon2: <FaLinkedinIn />,
-    socialIcon3: <FaPinterestP />,
   },
 ];
 
@@ -67,9 +50,6 @@ const TeamMember = () => {
               teamThumb,
               teamTitle,
               teamDesc,
-              socialIcon,
-              socialIcon2,
-              socialIcon3,
             }) => {
               return (
                 <div key={id}>
@@ -77,9 +57,6 @@ const TeamMember = () => {
                     teamThumb={teamThumb}
                     teamTitle={teamTitle}
                     teamDesc={teamDesc}
-                    socialIcon={socialIcon}
-                    socialIcon2={socialIcon2}
-                    socialIcon3={socialIcon3}
                   />
                 </div>
               );

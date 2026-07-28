@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
 import footerLogo from "/images/logo-2.png";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPhoneVolume,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaPhoneVolume } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 
 const Footer4 = () => {
@@ -19,28 +13,6 @@ const Footer4 = () => {
               <img src={footerLogo} draggable={false} />
             </Link>
           </div>
-          <ul className="flex gap-3">
-            <li>
-              <button className="size-9 rounded-full bg-[#051b71] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                <FaFacebookF />
-              </button>
-            </li>
-            <li>
-              <button className="size-9 rounded-full bg-[#051b71] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                <FaXTwitter />
-              </button>
-            </li>
-            <li>
-              <button className="size-9 rounded-full bg-[#051b71] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                <FaLinkedinIn />
-              </button>
-            </li>
-            <li>
-              <button className="size-9 rounded-full bg-[#051b71] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                <FaPinterestP />
-              </button>
-            </li>
-          </ul>
         </div>
         <div className="grid grid-cols-12 gap-5 lg:gap-0 mt-24">
           <div className="col-span-12 md:col-span-6 lg:col-span-2">
@@ -122,8 +94,8 @@ const Footer4 = () => {
               Newsletter
             </h4>
             <p className="font-Nunito text-white opacity-70 mt-10 mb-9">
-              I’m okay with getting emails and having that tracked to improve my
-              experience
+              Get Stratumer tips, product updates, and IT insights delivered
+              straight to your inbox
             </p>
             <form action="#" method="post" className="relative">
               <input
@@ -147,7 +119,7 @@ const Footer4 = () => {
       <div className="text-left py-6 bg-[#0d0d53] mt-24">
         <div className="Container flex flex-col gap-5 md:flex-row md:gap-0 justify-between">
           <p className="font-Nunito text-white">
-            TopTech © Copyright 2024 All Rights Reserved.
+            Stratumer © Copyright 2024 All Rights Reserved.
           </p>
           <div>
             <ul className="flex gap-7">

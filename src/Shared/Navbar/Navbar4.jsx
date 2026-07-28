@@ -1,11 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Link, NavLink } from "react-router-dom";
-import {
-  FaBars,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
 import Logo from "/images/logo.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
@@ -166,28 +161,6 @@ const Navbar2 = () => {
                 <Link to={"/contact"} className="header-btn">
                   Get A Quote
                 </Link>
-                <div className="flex gap-2 items-center lg:hidden xl:flex">
-                  <h5 className="font-Nunito text-HeadingColor-0 text-lg font-medium">
-                    Share :{" "}
-                  </h5>
-                  <ul className="flex items-center gap-4">
-                    <li>
-                      <button className="text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
-                        <FaLinkedinIn size={"14"} />
-                      </button>
-                    </li>
-                    <li>
-                      <button className="text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
-                        <FaXTwitter size={"14"} />
-                      </button>
-                    </li>
-                    <li>
-                      <button className="text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
-                        <FaPinterestP size={"14"} />
-                      </button>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

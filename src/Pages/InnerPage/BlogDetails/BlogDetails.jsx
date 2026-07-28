@@ -10,11 +10,7 @@ import { IoSearch } from "react-icons/io5";
 import {
   FaArrowRightLong,
   FaCircleCheck,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterestP,
   FaRegFolderOpen,
-  FaXTwitter,
 } from "react-icons/fa6";
 import { BiSolidQuoteAltRight } from "react-icons/bi";
 import { blogPosts, popularPosts } from "./blogDetailsData";
@@ -127,38 +123,6 @@ const BlogDetails = () => {
                         Blog
                       </button>
                     </Link>
-                  </div>
-                  <div>
-                    <ul className="flex justify-center items-center gap-2">
-                      <li>
-                        <Link to={"/"}>
-                          <button className="text-white w-9 h-9 rounded-full bg-[#1673ea] flex justify-center items-center">
-                            <FaFacebookF size={"13"} />
-                          </button>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to={"/"}>
-                          <button className="text-white w-9 h-9 rounded-full bg-[#38ceff] flex justify-center items-center">
-                            <FaXTwitter size={"13"} />
-                          </button>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to={"/"}>
-                          <button className="text-white w-9 h-9 rounded-full bg-[#0b4ab1] flex justify-center items-center">
-                            <FaLinkedinIn size={"13"} />
-                          </button>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to={"/"}>
-                          <button className="text-white w-9 h-9 rounded-full bg-[#e92928] flex justify-center items-center">
-                            <FaPinterestP size={"13"} />
-                          </button>
-                        </Link>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>

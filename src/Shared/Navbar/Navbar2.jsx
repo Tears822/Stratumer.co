@@ -1,19 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { Link, NavLink } from "react-router-dom";
-import {
-  FaBars,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
 import Logo from "/images/logo-2.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { IoSearch } from "react-icons/io5";
-import { HiOutlineMailOpen } from "react-icons/hi";
-import { CiLocationOn } from "react-icons/ci";
-import { GrAlarm } from "react-icons/gr";
 
 const Navbar2 = () => {
   //sticky
@@ -47,69 +38,6 @@ const Navbar2 = () => {
     <nav
       className={`w-full transition-all duration-300 bg-transparent relative z-[99999]`}
     >
-      {/* top Navbar */}
-      <header className="bg-PrimaryColor-0 relative z-10 overflow-hidden md:block">
-        <div className="Container flex items-center justify-between h-[50px]">
-          <div className="flex items-center gap-10">
-            <p className="font-Nunito text-white sm:flex hidden items-center gap-1">
-              <CiLocationOn className="text-xl relative bottom-[2px] text-white" />
-              New market Sandigo - California
-            </p>
-            <Link
-              to={"/"}
-              className="font-Nunito text-white md:flex items-center gap-2 hidden"
-            >
-              <HiOutlineMailOpen size={"16"} className="text-white" />
-              example@hotmail.com
-            </Link>
-          </div>
-          <div className="flex items-center gap-16">
-            <div className="lg:flex items-center gap-2 hidden">
-              <span className="flex items-center gap-3 text-white">
-                <GrAlarm />
-              </span>
-              <p className="font-Nunito font-medium text-white">
-                9.10 am - 5.30 pm
-              </p>
-            </div>
-            <ul className="flex gap-3 items-center">
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaFacebookF />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaXTwitter />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaLinkedinIn />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"/"}
-                  className="transition-all duration-500 text-white hover:text-PrimaryColor-0"
-                >
-                  <FaPinterestP />
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </header>
-      {/* top Navbar */}
       <header
         className="header-section navbar2 bg-transparent absolute w-full z-10"
         data-aos="zoom-in"

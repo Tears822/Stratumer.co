@@ -14,7 +14,7 @@ const processData = [
     featureshape2: featureshape2,
     featureTitle: "22+ Year Experience",
     featureDesc:
-      "Monotonically synergize grants to business visualize strategic infomediaries",
+      "Stratumer brings decades of IT expertise to help your business grow with proven solutions",
     featureUrl: "/service",
     featureBtn: "Read More",
   },
@@ -25,7 +25,7 @@ const processData = [
     featureshape2: featureshape2,
     featureTitle: "Dedicated Members",
     featureDesc:
-      "Monotonically synergize grants to business visualize strategic infomediaries",
+      "Our specialists stay focused on your goals with clear communication and hands on support",
     featureUrl: "/service",
     featureBtn: "Read More",
   },
@@ -36,7 +36,7 @@ const processData = [
     featureshape2: featureshape2,
     featureTitle: "Valuable Supports",
     featureDesc:
-      "Monotonically synergize grants to business visualize strategic infomediaries",
+      "Get responsive help when you need it so downtime stays low and productivity stays high",
     featureUrl: "/service",
     featureBtn: "Read More",
   },

@@ -12,28 +12,28 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceTitle: "Data Security",
     serviceDesc:
-      "Monotonectally synergize granular to front markets task state data security semper maecenas ferform.",
+      "Stratumer protects your systems with layered defenses, continuous monitoring, and clear response plans for every threat.",
   },
   {
     id: 2,
     serviceIcon: serviceIcon2,
     serviceTitle: "IT Services",
     serviceDesc:
-      "Monotonectally synergize granular to front markets task state data security semper maecenas ferform.",
+      "From cloud setup to network care, we deliver practical IT services that keep your operations running without friction.",
   },
   {
     id: 3,
     serviceIcon: serviceIcon3,
     serviceTitle: "Supports",
     serviceDesc:
-      "Monotonectally synergize granular to front markets task state data security semper maecenas ferform.",
+      "Our support team resolves issues fast with friendly guidance, proactive checks, and help when you need it most.",
   },
   {
     id: 4,
     serviceIcon: serviceIcon4,
     serviceTitle: "Peoples",
     serviceDesc:
-      "Monotonectally synergize granular to front markets task state data security semper maecenas ferform.",
+      "Skilled Stratumer specialists work as an extension of your team, aligning technology choices with real business goals.",
   },
 ];
 
@@ -47,13 +47,13 @@ const WhyChooseUs = () => {
               IT Support For Business
             </h5>
             <h1 className="font-Rajdhani font-bold text-[20px] text-HeadingColor-0 leading-7 sm:text-[34px] sm:leading-[44px] md:text-[44px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[36px] xl:leading-[46px] 2xl:text-[42px] 2xl:leading-[52px] mt-[18px]">
-              The Toptech IT Services Promise
+              The Stratumer IT Services Promise
             </h1>
             <p className="font-Nunito text-TextColor2-0 mt-3 mb-7">
-              Monotonectally synergize granular markets and front markets
-              collaboratively task state of the art infrastructures for granular
-              Maecenas varius sem dui buildings semper ante a viverra posuere
-              maecenas fermentum.
+              Stratumer partners with businesses that want dependable technology
+              without the guesswork. We plan, build, and support modern IT
+              infrastructure so your teams can focus on growth while we keep
+              systems secure, stable, and ready for what comes next.
             </p>
             <ul>
               <li className="flex items-center gap-3 font-Nunito text-lg text-HeadingColor-0">

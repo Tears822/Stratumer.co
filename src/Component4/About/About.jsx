@@ -18,9 +18,9 @@ const About = () => {
               <br /> Financial Services.
             </h1>
             <p className="font-Nunito text-TextColor2-0 text-lg pb-6">
-              Professionally optimize interdependent intellectual interoperable
-              visuali design infoediaries main issue state icreative planing
-              main best practices.
+              Stratumer helps organizations strengthen IT foundations with clear
+              strategy, dependable infrastructure, and practical consulting that
+              turns complex technology into everyday business advantage.
             </p>
             <div className="grid gap-3 sm:gap-0 sm:grid-cols-2 sm:items-center mb-11">
               <ul className="space-y-3">

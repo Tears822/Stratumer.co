@@ -44,10 +44,10 @@ const About = () => {
               IT Services Source
             </h1>
             <p className="font-Nunito text-TextColor2-0 pb-9 border-b border-BorderColor2-0 relative before:absolute before:left-0 before:-bottom-[1px] before:w-[50px] before:h-[1px] before:bg-PrimaryColor-0 before:animate-dance4">
-              Monotonectally synergize granular markets and front markets.
-              Collaboratively visualize strategic infomediaries after multimedia
-              based models. Synergistically task state of the art
-              infrastructures for
+              Stratumer delivers reliable IT support that keeps your systems
+              running and your teams productive. From managed infrastructure to
+              day to day technical help, we partner with businesses that need
+              clear guidance and dependable results.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-[30px] my-10">
               <div className="flex gap-5 items-center">

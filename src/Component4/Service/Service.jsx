@@ -13,7 +13,7 @@ const ServiceData = [
     serviceIcon: serviceIcon,
     serviceTitle: "Business Planning",
     serviceDesc:
-      "Morem area are psum dolor com sitteme odern sectet aweur chat adipiscing always.",
+      "Map clear technology roadmaps that align IT spend with your growth goals and daily operations.",
     serviceUrl: "/service_details",
     serviceBtn: "Read More",
   },
@@ -22,7 +22,7 @@ const ServiceData = [
     serviceIcon: serviceIcon2,
     serviceTitle: "Problem-Solving",
     serviceDesc:
-      "Morem area are psum dolor com sitteme odern sectet aweur chat adipiscing always.",
+      "Diagnose issues quickly and resolve them with practical fixes that restore productivity fast.",
     serviceUrl: "/service_details",
     serviceBtn: "Read More",
   },
@@ -31,7 +31,7 @@ const ServiceData = [
     serviceIcon: serviceIcon3,
     serviceTitle: "Project Reporting",
     serviceDesc:
-      "Morem area are psum dolor com sitteme odern sectet aweur chat adipiscing always.",
+      "Track progress with clear reports so stakeholders always know status, risks, and next steps.",
     serviceUrl: "/service_details",
     serviceBtn: "Read More",
   },
@@ -40,7 +40,7 @@ const ServiceData = [
     serviceIcon: serviceIcon4,
     serviceTitle: "Professional Team",
     serviceDesc:
-      "Morem area are psum dolor com sitteme odern sectet aweur chat adipiscing always.",
+      "Partner with skilled Stratumer experts who bring focus, accountability, and real world results.",
     serviceUrl: "/service_details",
     serviceBtn: "Read More",
   },
@@ -54,7 +54,7 @@ const Service = () => {
           <div>
             <h5 className="font-Rajdhani text-lg font-medium text-PrimaryColor-0 flex items-center gap-2">
               <PiStarFourFill size={"14"} />
-              OUT TOPTECH SERVICES
+              OUR STRATUMER SERVICES
             </h5>
             <h1 className="font-Rajdhani font-bold text-[22px] leading-8 sm:text-[38px] sm:leading-[48px] md:text-[44px] md:leading-[54px] lg:text-[32px] lg:leading-[42px] xl:text-[44px] xl:leading-[54px] 2xl:text-[46px] 2xl:leading-[56px] text-white mt-4 mb-4">
               Let’s Discover Our Service

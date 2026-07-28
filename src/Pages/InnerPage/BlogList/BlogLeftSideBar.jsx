@@ -24,7 +24,7 @@ const blogListData = [
     postBy: "Admin : Mera",
     comments: "Comments (04)",
     blogListDesc:
-      "Alternative innovation to ethical network environmental whiteboard pursue compelling results for methods empowerment. Dramatically architect go forward opportunities transition mission top critical supply chains after enterprise",
+      "Discover how Stratumer helps companies modernize aging infrastructure with practical cloud plans, clearer security habits, and IT choices that support everyday work.",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const blogListData = [
     postBy: "Admin : Mera",
     comments: "Comments (04)",
     blogListDesc:
-      "Alternative innovation to ethical network environmental whiteboard pursue compelling results for methods empowerment. Dramatically architect go forward opportunities transition mission top critical supply chains after enterprise",
+      "Learn why proactive monitoring matters for business continuity and how our team catches issues early before they disrupt teams or customers.",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const blogListData = [
     postBy: "Admin : Mera",
     comments: "Comments (04)",
     blogListDesc:
-      "Alternative innovation to ethical network environmental whiteboard pursue compelling results for methods empowerment. Dramatically architect go forward opportunities transition mission top critical supply chains after enterprise",
+      "Explore practical steps for tighter data protection, smarter access policies, and training that keeps your people confident online.",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const blogListData = [
     postBy: "Admin : Mera",
     comments: "Comments (04)",
     blogListDesc:
-      "Alternative innovation to ethical network environmental whiteboard pursue compelling results for methods empowerment. Dramatically architect go forward opportunities transition mission top critical supply chains after enterprise",
+      "See how Stratumer designs software and support models that scale with growth so your technology stays useful long after launch day.",
   },
 ];
 

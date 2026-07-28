@@ -1,12 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Link, NavLink } from "react-router-dom";
-import {
-  FaBars,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
 import Logo from "/images/logo-2.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";

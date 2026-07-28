@@ -10,25 +10,25 @@ const Faq = () => {
     {
       faqIcon: faqIcon,
       title: "#1 What is Technology service?",
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing awesom. Optio, neque qui velit. Magni dolorum quidem ipsam also as eligendi, totam, facilis laudantium.",
+      text: "Technology services from Stratumer cover planning, setup, security, and ongoing care for the systems your business relies on every day.",
       active: true,
     },
     {
       faqIcon: faqIcon,
       title: "#2 How To Buy A Product?",
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing awesom. Optio, neque qui velit. Magni dolorum quidem ipsam also as eligendi, totam, facilis laudantium.",
+      text: "Choose the plan that fits your needs, share a few project details with our team, and we will confirm scope, pricing, and next steps before work begins.",
       active: false,
     },
     {
       faqIcon: faqIcon,
       title: "#3 How Work The Support Policy?",
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing awesom. Optio, neque qui velit. Magni dolorum quidem ipsam also as eligendi, totam, facilis laudantium.",
+      text: "Our support policy includes clear response times, priority handling for urgent issues, and direct access to specialists who know your environment.",
       active: false,
     },
     {
       faqIcon: faqIcon,
       title: "#4 How Can Send A Refund Request?",
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing awesom. Optio, neque qui velit. Magni dolorum quidem ipsam also as eligendi, totam, facilis laudantium.",
+      text: "Send a refund request through your account manager or support email with your order details, and we will review it under our stated service terms.",
       active: false,
     },
   ];

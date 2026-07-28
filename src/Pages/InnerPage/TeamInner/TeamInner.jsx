@@ -3,14 +3,7 @@ import teamThumb2 from "/images/team-2.png";
 import teamThumb3 from "/images/team-4.png";
 import teamThumb4 from "/images/team-3.png";
 import TeamInnerCard from "./TeamInnerCard";
-import {
-  FaArrowRightLong,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
-import { IoShareSocialOutline } from "react-icons/io5";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 import BreadCrumb from "../../../Shared/BreadCrumb/BreadCrumb";
@@ -20,88 +13,49 @@ const teamData = [
     id: 1,
     teamThumb: teamThumb,
     teamTitle: "Connie Diaz",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "CEO & Founder",
-    teamShareIcon: <IoShareSocialOutline />,
   },
   {
     id: 2,
     teamThumb: teamThumb2,
     teamTitle: "James E. Huey",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "Co Founder",
-    teamShareIcon: <IoShareSocialOutline />,
   },
   {
     id: 3,
     teamThumb: teamThumb4,
     teamTitle: "Jone D. Alexon",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "IT Expert",
-    teamShareIcon: <IoShareSocialOutline />,
   },
   {
     id: 4,
     teamThumb: teamThumb3,
     teamTitle: "June D. Vargas",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "Hr. Maneger",
-    teamShareIcon: <IoShareSocialOutline />,
-  },  {
+  },
+  {
     id: 5,
     teamThumb: teamThumb,
     teamTitle: "Connie Diaz",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "CEO & Founder",
-    teamShareIcon: <IoShareSocialOutline />,
   },
   {
     id: 6,
     teamThumb: teamThumb2,
     teamTitle: "James E. Huey",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "Co Founder",
-    teamShareIcon: <IoShareSocialOutline />,
   },
   {
     id: 7,
     teamThumb: teamThumb4,
     teamTitle: "Jone D. Alexon",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "IT Expert",
-    teamShareIcon: <IoShareSocialOutline />,
   },
   {
     id: 8,
     teamThumb: teamThumb3,
     teamTitle: "June D. Vargas",
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
     teamDesc: "Hr. Maneger",
-    teamShareIcon: <IoShareSocialOutline />,
   },
 ];
 
@@ -141,24 +95,14 @@ const TeamInner = () => {
                 id,
                 teamThumb,
                 teamTitle,
-                socialIcon,
-                socialIcon2,
-                socialIcon3,
-                socialIcon4,
                 teamDesc,
-                teamShareIcon,
               }) => {
                 return (
                   <div key={id}>
                     <TeamInnerCard
                       teamThumb={teamThumb}
                       teamTitle={teamTitle}
-                      socialIcon={socialIcon}
-                      socialIcon2={socialIcon2}
-                      socialIcon3={socialIcon3}
-                      socialIcon4={socialIcon4}
                       teamDesc={teamDesc}
-                      teamShareIcon={teamShareIcon}
                     />
                   </div>
                 );
@@ -172,5 +116,3 @@ const TeamInner = () => {
 };
 
 export default TeamInner;
-
-

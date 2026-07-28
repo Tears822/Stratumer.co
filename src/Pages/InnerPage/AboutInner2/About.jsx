@@ -39,10 +39,10 @@ const About = () => {
               Business Solution.
             </h1>
             <p className="font-Nunito text-TextColor2-0">
-              Monotonectally synergize granular markets and front markets.
-              Collaboratively visualize strategic infomediaries after multimedia
-              based models. Synergistically task state of the art
-              infrastructures for
+              Stratumer partners with growing organizations to plan, build, and
+              support technology that works in the real world. We combine clear
+              strategy with practical delivery so your teams stay productive and
+              your systems stay reliable.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-[30px] mt-10 mb-7 border-b-2 border-PrimaryColor-0 relative before:absolute before:bottom-0 before:left-0 before:bg-[#d5d5d5] before:w-full before:h-1 pb-12">
               <div>
@@ -57,7 +57,8 @@ const About = () => {
                   </div>
                 </div>
                 <p className="font-Nunito text-TextColor2-0 pt-3">
-                  Proved granular markets dream team more based models clean.
+                  Steady oversight of networks, cloud, and devices so your IT
+                  stays organized and ready for growth.
                 </p>
               </div>
               <div>
@@ -72,7 +73,8 @@ const About = () => {
                   </div>
                 </div>
                 <p className="font-Nunito text-TextColor2-0 pt-3">
-                  Proved granular markets dream team more based models clean.
+                  Recognition for service quality that reflects our commitment
+                  to clients and excellence in every engagement.
                 </p>
               </div>
             </div>

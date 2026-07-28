@@ -1,6 +1,5 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import teamDetailsImg from "/images/team-details.jpg"
-import { FaFacebookF, FaLinkedinIn, FaPinterestP, FaXTwitter } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { TfiLocationPin } from "react-icons/tfi";
 import ProgressBar from "react-animated-progress-bar";
@@ -21,10 +20,10 @@ const TeamDetailsMain = () => {
               Dream Land Founder & CEO
             </p>
             <p className="font-Nunito text-TextColor2-0 mt-9 mb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor creative labore et dolore magna aliqua ipsum
-              suspendisse ultrices gravida commodo viverra accu eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
+              Dillur leads Stratumer with a clear vision for reliable IT
+              services that help growing businesses stay secure, connected, and
+              ready to scale. He guides product strategy, client partnerships,
+              and delivery excellence across our full technology stack.
             </p>
             <div className="bg-BodyBg-0 py-10 px-5 2xl:px-10 rounded-md grid grid-cols-1 gap-6 sm:gap-0 sm:grid-cols-2 sm:items-center">
               <div className="flex lg:flex-col xl:flex-row items-center lg:items-start xl:items-center gap-5">
@@ -54,34 +53,7 @@ const TeamDetailsMain = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row sm:items-center gap-6 my-[50px]">
-              <h5 className="font-Rajdhani font-semibold text-2xl text-HeadingColor-0">
-                Social Media :
-              </h5>
-              <ul className="flex gap-3">
-                <li>
-                  <button className="size-10 rounded-full text-sm bg-BodyBg-0 flex items-center justify-center text-HeadingColor-0 hover:text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaFacebookF />
-                  </button>
-                </li>
-                <li>
-                  <button className="size-10 rounded-full text-sm bg-BodyBg-0 flex items-center justify-center text-HeadingColor-0 hover:text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaXTwitter />
-                  </button>
-                </li>
-                <li>
-                  <button className="size-10 rounded-full text-sm bg-BodyBg-0 flex items-center justify-center text-HeadingColor-0 hover:text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaLinkedinIn />
-                  </button>
-                </li>
-                <li>
-                  <button className="size-10 rounded-full text-sm bg-BodyBg-0 flex items-center justify-center text-HeadingColor-0 hover:text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                    <FaPinterestP />
-                  </button>
-                </li>
-              </ul>
-            </div>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 my-[50px]">
               <div className="size-[56px] rounded-full border-2 border-PrimaryColor-0 flex justify-center items-center text-PrimaryColor-0 text-3xl transition-all duration-500 group-hover:text-white group-hover:border-white">
                 <TfiLocationPin />
               </div>

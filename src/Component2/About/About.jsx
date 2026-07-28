@@ -65,10 +65,10 @@ const About = () => {
               IT Services Source
             </h1>
             <p className="font-Nunito text-TextColor2-0 pb-7">
-              Monotonectally synergize granular markets and front markets.
-              Collaboratively visualize strategic infomediaries after multimedia
-              based models. Synergistically task state of the art
-              infrastructures for
+              Stratumer helps growing companies stay productive with reliable IT
+              support, clear guidance, and practical technology planning. We
+              keep your systems stable so your team can focus on what matters
+              most.
             </p>
             <div className="flex flex-col gap-y-7 2xl:flex-row 2xl:justify-between 2xl:items-center">
               <ul>
@@ -76,19 +76,19 @@ const About = () => {
                   <span className="text-PrimaryColor-0">
                     <RiCheckFill size={"24"} />
                   </span>
-                  Holisticly matrix highly modelling
+                  Proven IT strategy for growth
                 </li>
                 <li className="font-Nunito font-medium text-HeadingColor-0 flex items-center gap-2 mb-3">
                   <span className="text-PrimaryColor-0">
                     <RiCheckFill size={"24"} />
                   </span>
-                  Growing audience for Business
+                  Scalable tools for your business
                 </li>
                 <li className="font-Nunito font-medium text-HeadingColor-0 flex items-center gap-2 mb-3">
                   <span className="text-PrimaryColor-0">
                     <RiCheckFill size={"24"} />
                   </span>
-                  24/7 Technical Supports
+                  24/7 Technical Support
                 </li>
               </ul>
               <div className="bg-[#eff6fe] rounded-lg inline-block px-7 py-8 w-[300px]">

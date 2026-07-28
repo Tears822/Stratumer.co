@@ -10,43 +10,38 @@ import TestimonialNavigation from "./TestimonialNavigation";
 const testiData = [
   {
     id: 1,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `Stratumer rebuilt our cloud environment with clear milestones and steady communication. Downtime dropped, response times improved, and our team finally has infrastructure we can trust day to day.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
     testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiDesignation: "Operations Director",
   },
   {
     id: 2,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `Their managed support feels like an extension of our own staff. Tickets get resolved quickly, security patches stay current, and we always know what is happening across our network.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Marcus Chen",
+    testiDesignation: "IT Manager",
   },
   {
     id: 3,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `We hired Stratumer to modernize our servers and backup strategy. The rollout was smooth, documentation was thorough, and our recovery readiness is stronger than it has ever been.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Priya Nair",
+    testiDesignation: "Technology Lead",
   },
   {
     id: 4,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `From consulting through deployment, Stratumer kept every recommendation practical. Our costs are clearer, systems run faster, and leadership finally has confidence in our IT roadmap.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Daniel Ortiz",
+    testiDesignation: "COO",
   },
   {
     id: 5,
-    testiDesc: `Completely extend leveraged customer service rather than performance based imperatives.
-                magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise`,
+    testiDesc: `Cybersecurity used to keep us awake at night. Stratumer hardened our endpoints, trained our people, and put monitoring in place so threats are caught before they become crises.`,
     testiRatingIcon: <MdOutlineStarPurple500 />,
-    testiName: "Anjelina Watson",
-    testiDesignation: "Web Developer",
+    testiName: "Sofia Alvarez",
+    testiDesignation: "Security Analyst",
   },
 ];
 

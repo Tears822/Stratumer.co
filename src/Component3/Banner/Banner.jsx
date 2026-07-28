@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="grid gap-16 lg:gap-0 lg:grid-cols-12 items-center">
           <div className="col-span-9 relative">
             <h5 className="font-Rajdhani text-white text-xl sm:text-2xl uppercase font-medium flex items-center gap-2 mb-5">
-              Welcome to Toptech
+              Welcome to Stratumer
             </h5>
             <h1 className="font-Rajdhani font-extrabold text-white text-[26px] leading-[30px] sm:text-[48px] sm:leading-[50px] md:text-[62px] md:leading-[62px] lg:text-[50px] lg:leading-[50px] xl:text-[74px] xl:leading-[74px]">
               TOP IT SOLUTIONS AGENCY

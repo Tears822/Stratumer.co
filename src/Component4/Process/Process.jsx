@@ -35,13 +35,14 @@ const Process = () => {
               <br /> Financial Services.
             </h1>
             <p className="font-Nunito text-TextColor2-0 text-lg pb-7">
-              Professionaly optimize interdependent intelectual services visuali
-              design infoediaries main issue state icreative planing main best
-              practices.
+              Stratumer follows a proven delivery process that keeps projects
+              transparent from discovery through launch, with checkpoints that
+              protect timelines, budgets, and long term system health.
             </p>
             <p className="font-Nunito text-TextColor2-0 text-lg pb-6">
-              Our team of seasoned experts is here to you to unlock your provid
-              business’s potential and achieve remar success.
+              Our specialists partner with your team to uncover growth
+              opportunities, remove technical friction, and deliver outcomes you
+              can measure across operations and customer experience.
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-7 mt-5">
               <Link to={"/about"}>

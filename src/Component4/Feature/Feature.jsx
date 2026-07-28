@@ -15,7 +15,7 @@ const FeatureData = [
     featureIcon: featureIcon,
     featureTitle: `Strategic marketing`,
     featureDesc:
-      "Profesionaly optimize team developer infomediaries main issue don.",
+      "Grow reach with focused campaigns that turn attention into qualified leads for Stratumer clients.",
     featureUrl: "/service_details",
     featureBtnIcon: <FaArrowRightLong />,
   },
@@ -24,7 +24,7 @@ const FeatureData = [
     featureIcon: featureIcon2,
     featureTitle: `Investment Planning`,
     featureDesc:
-      "Profesionaly optimize team developer infomediaries main issue don.",
+      "Prioritize technology spend wisely so every upgrade supports lasting value and stronger returns.",
     featureUrl: "/service_details",
     featureBtnIcon: <FaArrowRightLong />,
   },
@@ -33,7 +33,7 @@ const FeatureData = [
     featureIcon: featureIcon3,
     featureTitle: `Insights & analytics`,
     featureDesc:
-      "Profesionaly optimize team developer infomediaries main issue don.",
+      "Turn raw data into clear insights that guide smarter decisions across teams and projects.",
     featureUrl: "/service_details",
     featureBtnIcon: <FaArrowRightLong />,
   },
@@ -42,7 +42,7 @@ const FeatureData = [
     featureIcon: featureIcon4,
     featureTitle: `Business consulting`,
     featureDesc:
-      "Profesionaly optimize team developer infomediaries main issue don.",
+      "Get practical guidance that connects IT choices to real business outcomes and smoother workflows.",
     featureUrl: "/service_details",
     featureBtnIcon: <FaArrowRightLong />,
   },
@@ -51,7 +51,7 @@ const FeatureData = [
     featureIcon: featureIcon5,
     featureTitle: `Finance & Restructuring`,
     featureDesc:
-      "Profesionaly optimize team developer infomediaries main issue don.",
+      "Streamline financial systems and processes so reporting stays accurate and operations stay lean.",
     featureUrl: "/service_details",
     featureBtnIcon: <FaArrowRightLong />,
   },
@@ -60,7 +60,7 @@ const FeatureData = [
     featureIcon: featureIcon6,
     featureTitle: `Audit and Evaluation`,
     featureDesc:
-      "Profesionaly optimize team developer infomediaries main issue don.",
+      "Review systems thoroughly to uncover risks, gaps, and opportunities for stronger performance.",
     featureUrl: "/service_details",
     featureBtnIcon: <FaArrowRightLong />,
   },

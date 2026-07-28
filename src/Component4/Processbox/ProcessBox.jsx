@@ -8,7 +8,7 @@ const ProcessBoxData = [
     boxNumber: "01",
     processBoxTitle: "Project Processing",
     processBoxDesc:
-      "Process optimize developer in provid creative main issue finance.",
+      "We scope requirements, align stakeholders, and set a delivery plan your team can follow with confidence.",
     processBoxBtn: "Read More",
     processBtnIcon: <HiOutlineArrowRight />,
   },
@@ -17,7 +17,7 @@ const ProcessBoxData = [
     boxNumber: "02",
     processBoxTitle: "High Quality Products",
     processBoxDesc:
-      "Process optimize developer in provid creative main issue finance.",
+      "Every solution is built with proven platforms, secure configurations, and standards that hold up under real use.",
     processBoxBtn: "Read More",
     processBtnIcon: <HiOutlineArrowRight />,
   },
@@ -26,7 +26,7 @@ const ProcessBoxData = [
     boxNumber: "03",
     processBoxTitle: "Quality Finished",
     processBoxDesc:
-      "Process optimize developer in provid creative main issue finance.",
+      "Before launch we test performance, validate recovery paths, and confirm every acceptance criterion is met.",
     processBoxBtn: "Read More",
     processBtnIcon: <HiOutlineArrowRight />,
   },
@@ -35,7 +35,7 @@ const ProcessBoxData = [
     boxNumber: "04",
     processBoxTitle: "Huge Choice Products",
     processBoxDesc:
-      "Process optimize developer in provid creative main issue finance.",
+      "Choose from cloud, networking, security, and managed support options tailored to your business priorities.",
     processBoxBtn: "Read More",
     processBtnIcon: <HiOutlineArrowRight />,
   },

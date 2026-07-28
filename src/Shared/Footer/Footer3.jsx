@@ -4,13 +4,7 @@ import footerShape3 from "/images/footer-shape.png";
 import footerLine from "/images/footer-line.png";
 import footerImg from "/images/blog-thumb2.jpg";
 import footerImg2 from "/images/blog-thumb3.jpg";
-import {
-  FaChevronRight,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaChevronRight } from "react-icons/fa6";
 
 const Footer3 = () => {
   return (
@@ -32,31 +26,9 @@ const Footer3 = () => {
               <img src={footerLogo} draggable={false} />
             </Link>
             <p className="font-Nunito text-white opacity-60 mt-10 mb-9">
-              Sometimes goods can arrive early when creative designneed place to
-              stored for desig space your needs.
+              Stratumer provides practical IT services that keep your systems
+              reliable, secure, and ready for everyday business demands.
             </p>
-            <ul className="flex gap-3">
-              <li>
-                <button className="size-9 rounded-full bg-[#0b2f21] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaFacebookF />
-                </button>
-              </li>
-              <li>
-                <button className="size-9 rounded-full bg-[#0b2f21] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaXTwitter />
-                </button>
-              </li>
-              <li>
-                <button className="size-9 rounded-full bg-[#0b2f21] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaLinkedinIn />
-                </button>
-              </li>
-              <li>
-                <button className="size-9 rounded-full bg-[#0b2f21] flex items-center justify-center text-white overflow-hidden transition-all duration-500 relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
-                  <FaPinterestP />
-                </button>
-              </li>
-            </ul>
           </div>
           <div>
             <h4 className="font-Nunito text-2xl text-white font-semibold mb-[30px]">
@@ -202,7 +174,7 @@ const Footer3 = () => {
       <div className="text-left py-6 bg-[#78b9003b] mt-24">
         <div className="Container flex flex-col gap-5 md:flex-row md:gap-0 justify-between">
           <p className="font-Nunito text-white opacity-60">
-            Toptech © 2024 All rights reserved.
+            Stratumer © 2024 All rights reserved.
           </p>
           <div>
             <ul className="flex gap-7">
