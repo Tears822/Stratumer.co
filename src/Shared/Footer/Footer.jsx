@@ -14,7 +14,7 @@ const Footer = () => {
               <img
                 src={footerLogo}
                 draggable={false}
-                className="block w-36 sm:w-40"
+                className="block w-44 sm:w-48"
               />
             </Link>
             <p className="font-Nunito text-white opacity-80 mt-6 mb-8 w-10/12">
