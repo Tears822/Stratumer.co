@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid gap-y-7 grid-cols-12">
           <div className="col-span-12 md:col-span-6 lg:col-span-4">
             <div className="w-10/12">
-              <Link to={"/"} className="block -ml-4">
+              <Link to={"/"} className="block -ml-4 -translate-y-6">
                 <img
                   src={footerLogo}
                   draggable={false}
