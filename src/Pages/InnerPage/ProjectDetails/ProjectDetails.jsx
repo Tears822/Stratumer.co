@@ -146,13 +146,13 @@ const ProjectDetails = () => {
                 </h6>
                 <Link to={"/"}>
                   <button className="font-Nunito font-semibold text-2xl text-white">
-                    +123 (4567) 890
+                    +1 (228) 303-1642
                   </button>
                 </Link>
                 <Link to={"/"}>
                   <button className="font-Nunito text-white flex gap-2 items-center mt-4 mb-[52px]">
                     <MdEmail className="text-xl text-PrimaryColor-0" />
-                    example@gmail.com
+                    hello@stratumer.co
                   </button>
                 </Link>
                 <Link to={"/contact"}>

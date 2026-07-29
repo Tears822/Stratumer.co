@@ -77,11 +77,11 @@ const Footer2 = () => {
             <ul className="mr-9 2xl:mr-[90px]">
               <li className="flex gap-2 items-center font-Nunito text-white border-b border-BorderColor-0 border-dashed pb-5">
                 <RiPhoneFill size={"18"} className="text-PrimaryColor-0" />
-                +980 123 (4567) 890
+                +1 (228) 303-1642
               </li>
               <li className="flex gap-2 items-center font-Nunito text-white border-b border-BorderColor-0 border-dashed pb-5 mt-5">
                 <MdOutlineMail size={"18"} className="text-PrimaryColor-0" />
-                example@gmail.com
+                hello@stratumer.co
               </li>
               <li className="flex gap-2 items-start font-Nunito text-white mt-6">
                 <IoLocationSharp size={"18"} className="text-PrimaryColor-0" />

@@ -103,7 +103,7 @@ const Appionment = () => {
               <div>
                 <p className="font-Nunito text-[15px] text-white">Call Us</p>
                 <h5 className="font-Rajdhani font-semibold text-white text-xl mt-1">
-                  +980 123 (4567) 890
+                  +1 (228) 303-1642
                 </h5>
               </div>
             </div>
@@ -116,7 +116,7 @@ const Appionment = () => {
                   Send E-Mail
                 </p>
                 <h5 className="font-Rajdhani font-semibold text-white text-xl mt-1">
-                  example@hotmail.com
+                  hello@stratumer.co
                 </h5>
               </div>
             </div>

@@ -35,7 +35,7 @@ const TeamDetailsMain = () => {
                     Call Us Anytime
                   </h5>
                   <p className="font-Rajdhani text-PrimaryColor-0 font-semibold md:text-2xl lg:text-xl 2xl:text-2xl transition-all duration-500 group-hover:text-white">
-                    +123 (4547) 563
+                    +1 (228) 303-1642
                   </p>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const TeamDetailsMain = () => {
                     Send E-Mail
                   </h5>
                   <p className="font-Rajdhani text-PrimaryColor-0 font-semibold md:text-2xl lg:text-xl 2xl:text-2x transition-all duration-500 group-hover:text-white">
-                    info@gmail.com
+                    hello@stratumer.co
                   </p>
                 </div>
               </div>

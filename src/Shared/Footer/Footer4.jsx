@@ -59,7 +59,7 @@ const Footer4 = () => {
                 <FaPhoneVolume className="text-xl text-white" />
               </div>
               <p className="font-Nunito text-TextColor-0">
-                +258 (549) 2158 3215
+                +1 (228) 303-1642
               </p>
             </div>
             <div className="flex items-center gap-3 my-7">
@@ -67,7 +67,7 @@ const Footer4 = () => {
                 <HiOutlineMail className="text-2xl text-white" />
               </div>
               <p className="font-Nunito text-TextColor-0">
-                support@example.com
+                hello@stratumer.co
               </p>
             </div>
             <p className="font-Nunito text-TextColor-0">

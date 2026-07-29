@@ -44,7 +44,7 @@ const Footer3 = () => {
                 to={"/"}
                 className=" text-white opacity-60 transition-all duration-500 hover:opacity-100"
               >
-                613-822-9644
+                +1 (228) 303-1642
               </Link>
             </h6>
             <h6 className="font-Nunito flex items-center my-4">
@@ -54,7 +54,7 @@ const Footer3 = () => {
                 to={"/"}
                 className=" text-white opacity-60 transition-all duration-500 hover:opacity-100"
               >
-                info@example.com
+                hello@stratumer.co
               </Link>
             </h6>
             <h6 className="font-Nunito flex items-center">

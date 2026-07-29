@@ -9,13 +9,13 @@ const processData = [
     id: 1,
     contactIcon: <FaPhoneAlt />,
     contactSubTitle: "Call Us  Anytime",
-    contactTitle: "+123 (4567) 890",
+    contactTitle: "+1 (228) 303-1642",
   },
   {
     id: 2,
     contactIcon: <HiOutlineMail />,
     contactSubTitle: "Send E-Mail",
-    contactTitle: "info@gmail.com",
+    contactTitle: "hello@stratumer.co",
   },
   {
     id: 3,

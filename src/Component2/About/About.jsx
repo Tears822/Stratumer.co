@@ -95,7 +95,7 @@ const About = () => {
                 <Link to={"/"} className="inline-block">
                   <button className="text-2xl font-Rajdhani font-semibold text-HeadingColor-0 flex items-center gap-3">
                     <img src={phoneIcon} draggable={false} />
-                    +980 123 (456) 780
+                    +1 (228) 303-1642
                   </button>
                 </Link>
               </div>
