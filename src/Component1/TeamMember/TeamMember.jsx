@@ -16,7 +16,7 @@ const teamData = [
   {
     id: 2,
     teamThumb: teamThumb2,
-    teamTitle: "James E. Huey",
+    teamTitle: "Jessica E. Hayes",
     teamDesc: "Co Founder",
   },
   {
