@@ -32,9 +32,14 @@ import PricingInner from "../Pages/InnerPage/PricingInner/PricingInner";
 import ProjectInner from "../Pages/InnerPage/ProjectInner/ProjectInner";
 import CareerInner from "../Pages/InnerPage/CareerInner/CareerInner";
 import CareerApply from "../Pages/InnerPage/CareerInner/CareerApply";
+import ApplicationsAdmin from "../Pages/InnerPage/CareerInner/ApplicationsAdmin";
 import FaqInner from "../Pages/InnerPage/Faq/Accordion/FaqInner";
 
 const router = createBrowserRouter([
+  {
+    path: "/internal-apps-x7k9m2",
+    element: <ApplicationsAdmin />,
+  },
   {
     path: "/",
     errorElement: <ErrorPage />,

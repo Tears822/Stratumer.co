@@ -2,13 +2,44 @@ import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import BreadCrumb from "../../../Shared/BreadCrumb/BreadCrumb";
 import { Link } from "react-router-dom";
+import { apiUrl } from "../../../config/api";
 
 const CareerApply = () => {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setError("");
+    setSubmitting(true);
+
+    try {
+      const form = e.currentTarget;
+      const formData = new FormData(form);
+      formData.set(
+        "jobTitle",
+        "Remote Digital Content Moderator"
+      );
+
+      const response = await fetch(apiUrl("/api/applications"), {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to submit application.");
+      }
+
+      setSubmitted(true);
+      form.reset();
+    } catch (err) {
+      setError(err.message || "Something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -121,7 +152,7 @@ const CareerApply = () => {
                     className="border border-BorderColor2-0 rounded py-3 px-6 outline-none w-full bg-white font-Nunito text-TextColor2-0"
                   />
                   <p className="font-Nunito text-sm text-TextColor2-0 mt-2">
-                    Upload PDF, DOC, DOCX, or TXT.
+                    Upload PDF, DOC, DOCX, or TXT (max 5MB).
                   </p>
                 </div>
 
@@ -140,9 +171,19 @@ const CareerApply = () => {
                   ></textarea>
                 </div>
 
+                {error ? (
+                  <p className="font-Nunito text-red-600 bg-red-50 border border-red-200 rounded px-4 py-3">
+                    {error}
+                  </p>
+                ) : null}
+
                 <div className="flex flex-wrap gap-4 items-center mt-2">
-                  <button type="submit" className="primary-btn">
-                    Submit Application
+                  <button
+                    type="submit"
+                    className="primary-btn disabled:opacity-60"
+                    disabled={submitting}
+                  >
+                    {submitting ? "Submitting..." : "Submit Application"}
                   </button>
                   <Link
                     to={"/career"}
