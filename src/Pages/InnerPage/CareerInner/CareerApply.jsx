@@ -59,7 +59,7 @@ const CareerApply = () => {
               Remote Digital Content Moderator
             </h1>
             <p className="font-Nunito text-TextColor2-0 mb-2">
-              Part-Time / Remote (United States)
+              Part-Time / Remote (United States, excluding California)
             </p>
             <p className="font-Nunito text-PrimaryColor-0 font-medium mb-8">
               $18.00 to $22.00 per hour

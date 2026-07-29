@@ -25,7 +25,9 @@ const Career = () => {
               <h6 className="px-[22px] py-1 rounded-full bg-PrimaryColor-0 font-Nunito font-light text-white text-sm">
                 Part-Time / Remote
               </h6>
-              <p className="font-Nunito text-TextColor2-0">United States</p>
+              <p className="font-Nunito text-TextColor2-0">
+                United States (excluding California)
+              </p>
             </div>
             <p className="font-Rajdhani font-semibold text-2xl mt-5">
               Remote Digital Content Moderator
@@ -59,9 +61,11 @@ const Career = () => {
             firm. We are currently seeking a detail oriented and reliable Remote
             Digital Content Moderator to join our platform support team. In this
             role, you will assist in managing data quality and content safety
-            for our clients online platforms. This is an entry level position
+            for our clients online platforms.             This is an entry level position
             that requires no previous technical background; we provide
             straightforward, fully paid onboarding and system orientation.
+            This role is open to applicants located in the United States,
+            excluding California.
           </p>
 
           <h5 className="font-Rajdhani font-semibold text-HeadingColor-0 text-2xl mb-4">
@@ -131,7 +135,14 @@ const Career = () => {
           </h5>
           <p className="font-Nunito text-TextColor2-0 mb-6">
             Please submit your resume or brief work history through our official
-            Stratumer careers application page.
+            Stratumer careers application page, or email your application to{" "}
+            <a
+              href="mailto:john@stratumer.co"
+              className="text-PrimaryColor-0 hover:underline"
+            >
+              john@stratumer.co
+            </a>
+            .
           </p>
           <Link to={"/career_apply"}>
             <button className="primary-btn">
