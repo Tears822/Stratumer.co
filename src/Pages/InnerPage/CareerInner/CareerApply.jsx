@@ -1,10 +1,17 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import BreadCrumb from "../../../Shared/BreadCrumb/BreadCrumb";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { apiUrl } from "../../../config/api";
+import { getJobById } from "./jobsData";
 
 const CareerApply = () => {
+  const [searchParams] = useSearchParams();
+  const job = useMemo(
+    () => getJobById(searchParams.get("role")),
+    [searchParams]
+  );
+
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -17,10 +24,7 @@ const CareerApply = () => {
     try {
       const form = e.currentTarget;
       const formData = new FormData(form);
-      formData.set(
-        "jobTitle",
-        "Remote Digital Content Moderator"
-      );
+      formData.set("jobTitle", job.title);
 
       const response = await fetch(apiUrl("/api/applications"), {
         method: "POST",
@@ -56,13 +60,13 @@ const CareerApply = () => {
               Stratumer Careers
             </h5>
             <h1 className="font-Rajdhani font-bold text-2xl sm:text-3xl text-HeadingColor-0 mt-2 mb-3">
-              Remote Digital Content Moderator
+              {job.title}
             </h1>
             <p className="font-Nunito text-TextColor2-0 mb-2">
-              Part-Time / Remote (United States, excluding California)
+              {job.type} ({job.location})
             </p>
             <p className="font-Nunito text-PrimaryColor-0 font-medium mb-8">
-              $18.00 to $22.00 per hour
+              {job.pay}
             </p>
 
             {submitted ? (
