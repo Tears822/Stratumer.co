@@ -62,7 +62,7 @@ const CareerApply = () => {
               Part-Time / Remote (United States)
             </p>
             <p className="font-Nunito text-PrimaryColor-0 font-medium mb-8">
-              $16.50 to $18.50 per hour
+              $18.00 to $22.00 per hour
             </p>
 
             {submitted ? (

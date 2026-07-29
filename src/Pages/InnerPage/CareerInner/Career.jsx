@@ -31,7 +31,7 @@ const Career = () => {
               Remote Digital Content Moderator
             </p>
             <p className="font-Nunito text-PrimaryColor-0 mt-2 font-medium">
-              $16.50 to $18.50 per hour
+              $18.00 to $22.00 per hour
             </p>
           </div>
           <div className="col-span-4">
